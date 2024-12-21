@@ -6,7 +6,7 @@ module sui_place::place {
     // use sui::tx_context::{TxContext};
 
     const EInvalidCoord:u64 = 0;
-    const ESomeOtherErrorCode:u64 = 1;
+    // const ESomeOtherErrorCode:u64 = 1;
 
     public struct Place has key, store {
         id: UID,
